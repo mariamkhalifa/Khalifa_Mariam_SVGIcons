@@ -14,7 +14,7 @@
 		</defs>
 		<title>Butterfly 2</title>
 		<g id="Layer_2" data-name="Layer 2">
-			<g id="butterfly-yellow">
+			<g id="butterfly-brown">
 				<circle id="bckgrnd" class="cls-1" cx="120.43" cy="120.43" r="120.43"/>
 				<ellipse id="body" class="cls-2" cx="120.73" cy="126.17" rx="6.33" ry="44.34"/>
 				<g id="sensors">
