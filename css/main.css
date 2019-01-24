@@ -5,3 +5,76 @@
 {
 	display: none;
 }
+
+#container
+{
+	width: 980px;
+	margin: 0 auto;
+	background-color: #666;
+}
+
+body
+{
+	font-family: 'Pacifico', cursive;
+}
+
+#mainHeader
+{
+	height: 150px;
+	background-color: #efefef;
+	border-bottom: solid 10px #fff;
+}
+
+#logo
+{
+	
+	font-size: 60px;
+	color: #666;
+	text-align: center;
+}
+
+#intro
+{
+	font-size: 20px;
+	color: #fff;
+	padding: 20px;
+	text-align: center;
+}
+
+#shop-row1
+{
+	display: flex;
+	justify-content: space-evenly;
+}
+
+#shop-row2
+{
+	display: flex;
+	justify-content: space-evenly;
+}
+
+#shop-row3
+{
+	display: flex;
+	justify-content: space-evenly;
+}
+
+#shop-row4
+{
+	display: flex;
+	justify-content: space-evenly;
+}
+
+#shop-row5
+{
+	display: flex;
+	justify-content: space-evenly;
+}
+
+.icon
+{
+	width: 300px;
+	height: 300px;
+	margin-left: 10px;
+	margin-top: 40px;
+}
