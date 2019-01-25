@@ -1,12 +1,14 @@
 (() => {
 
-	var butterfly = document.querySelector('#butterfly1');
+	var icon = document.querySelector("#butterfly1");
+	console.log(icon);
 
 	function logId() {
 		console.log(this.id);
 	}
 
-	butterfly.addEventListener('click', logId);
+
+	icon.addEventListener("click", logId);
 
 })();
 
