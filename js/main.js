@@ -1,14 +1,13 @@
 (() => {
 
-	var icon = document.querySelector("#butterfly1");
-	console.log(icon);
+	var AllIcons = document.querySelectorAll(".icon");
 
 	function logId() {
 		console.log(this.id);
 	}
 
 
-	icon.addEventListener("click", logId);
+	AllIcons.forEach(currenticon => currenticon.addEventListener("click",logId));
 
 })();
 
