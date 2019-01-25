@@ -8,7 +8,6 @@
 
 #container
 {
-	width: 980px;
 	margin: 0 auto;
 	background-color: #666;
 }
@@ -20,7 +19,6 @@ body
 
 #mainHeader
 {
-	height: 150px;
 	background-color: #efefef;
 	border-bottom: solid 10px #fff;
 }
@@ -41,40 +39,10 @@ body
 	text-align: center;
 }
 
-#shop-row1
-{
-	display: flex;
-	justify-content: space-evenly;
-}
-
-#shop-row2
-{
-	display: flex;
-	justify-content: space-evenly;
-}
-
-#shop-row3
-{
-	display: flex;
-	justify-content: space-evenly;
-}
-
-#shop-row4
-{
-	display: flex;
-	justify-content: space-evenly;
-}
-
-#shop-row5
-{
-	display: flex;
-	justify-content: space-evenly;
-}
-
 .icon
 {
-	width: 300px;
-	height: 300px;
+	display: inline;
+	width: 50%;
 	margin-left: 10px;
 	margin-top: 40px;
 }
