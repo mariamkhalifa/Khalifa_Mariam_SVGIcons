@@ -8,7 +8,6 @@
 
 #container
 {
-	margin: 0 auto;
 	background-color: #666;
 }
 
@@ -29,6 +28,7 @@ body
 	font-size: 60px;
 	color: #666;
 	text-align: center;
+	padding: 10px;
 }
 
 #intro
@@ -39,10 +39,16 @@ body
 	text-align: center;
 }
 
+#image-wrapper
+{
+	display: flex;
+	flex-direction: column;
+}
+
 .icon
 {
 	display: inline;
 	width: 50%;
-	margin-left: 10px;
-	margin-top: 40px;
+	margin: 0 auto;
+	padding: 20px;
 }
